@@ -11,6 +11,12 @@ git --exec-path
 
 ここ、あるいはPATHが通ったディレクトリに 'git-sabcommand' という名前でファイルを配置すると、git-commandを追加できる
 
+ex: git管理下のファイル総数を調べる
+
+1. ファイル数を数える script(shでもpythonでもなんでもいい) を作成し 'git-fc' という名前で保存する
+1. PATH が通った場所に 'git-fc' を配置する
+1. git管理下のパスで、 **git fc** や **git fc --all** あるいは **git fc -- src/\*.sh** などのコマンドを打つ *こういったオプションが使用できるように script を開発する必要がある*
+
 ### Contents
 
 * ここに追加・拡張した内容を記載する (予定)
