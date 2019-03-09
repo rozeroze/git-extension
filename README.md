@@ -9,7 +9,7 @@ git-command の追加や拡張
 $ git --exec-path
 ```
 
-ここ、あるいはPATHが通ったディレクトリに 'git-sabcommand' という名前でファイルを配置すると、git-commandを追加できる
+ここ、あるいはPATHが通ったディレクトリに 'git-subcommand' という名前でファイルを配置すると、git-commandを追加できる
 
 ex: git管理下のファイル総数を調べる
 
