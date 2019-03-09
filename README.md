@@ -6,7 +6,7 @@ git-command の追加や拡張
 
 以下のコマンドを実行時すると、gitのサブコマンドが配置されたディレクトリのパスが表示される
 ```bash
-git --exec-path
+$ git --exec-path
 ```
 
 ここ、あるいはPATHが通ったディレクトリに 'git-sabcommand' という名前でファイルを配置すると、git-commandを追加できる
