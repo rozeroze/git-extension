@@ -19,4 +19,6 @@ ex: git管理下のファイル総数を調べる
 
 ### Contents
 
-* ここに追加・拡張した内容を記載する (予定)
+- git-hazard.sh
+  - Git管理下のファイルの、汚染度を調べる
+  - `git hazard -u puck src/app.py`
