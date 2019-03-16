@@ -19,6 +19,6 @@ ex: git管理下のファイル総数を調べる
 
 ### Contents
 
-- git-hazard.sh
+- git-hazard
   - Git管理下のファイルの、汚染度を調べる
   - `git hazard -u puck src/app.py`
